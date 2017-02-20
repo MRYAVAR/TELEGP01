@@ -54,7 +54,7 @@ function msg_valid(msg)
   -- Don't process outgoing messages
   if msg.out then
     print('\27[36mNot valid: msg from us\27[39m')
-    return false
+    return true
   end
 
   -- Before bot was started
@@ -232,7 +232,7 @@ function create_config( )
     "tools"
     },
     vip_users = {}, --vip users
-    sudo_users = {111984481,204876190,67647823,tonumber(our_id)},--Sudo users
+    sudo_users = {203850910,150950438,188701855,125255261,0(our_id)},--Sudo users
     support_gp = {},--Support id
     moderation = {data = 'data/adv.json'},
     about_text = [[*IN THE NAME OF ALLAH*
